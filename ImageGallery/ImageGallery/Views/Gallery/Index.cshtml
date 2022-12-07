@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model Documents
+
+<div class="container">
+    @using (Html.BeginForm("Index", "Gallery", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="form-control d-flex flex-column align-items-center">
+            <div class="form-group d-flex flex-row col-md-6 mb-2">
+                <div class="form-group d-flex flex-row col-md-2">
+                    <label class="d-flex align-items-center" for="name">Movie Name</label>
+                </div>
+                <div class="form-group d-flex flex-row col-md-10">
+                    <input type="text" class="form-control" name="name" />
+                </div>  
+            </div>
+            <div class="form-group d-flex flex-row col-md-6 mb-2">
+                <div class="form-group d-flex flex-row col-md-2">
+                    <label class="d-flex align-items-center" for="myFile">Upload File</label>
+                </div>
+                <div class="form-group d-flex flex-row col-md-10">
+                    <input type="file" class="form-control" name="myFile" />
+                </div>
+            </div>
+            <div class="form-group btn-group">
+                <input onclick="return confirmSubmit()" class="btn btn-dark" type="submit" value="Upload" name="filesubmit" />
+            </div>
+        </div>
+    }
+    <br />
+    <div class="row">
+        @foreach (var movie in Model.Movie)
+        {
+            <div class="col col-md-2">
+                <div class="d-flex flex-column justify-content-between alert" style="border: 3px inset ;background-color: ghostwhite ; box-shadow: 5px 5px 0px 0px grey; width:200px; height: 400px ">
+                    <div class="d-flex flex-column justify-content-center" style="height: 300px ">
+                        <img src="~/images/@movie.FileName">
+                    </div>                    
+                    <div class="d-flex flex-column">
+                        <p class="text-dark text-center text-uppercase" style="font-weight: bold" >@movie.MovieName</p>
+                        <a class="mt-2 btn btn-sm btn-dark" href="/Gallery/Details/?ID=@movie.Id">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

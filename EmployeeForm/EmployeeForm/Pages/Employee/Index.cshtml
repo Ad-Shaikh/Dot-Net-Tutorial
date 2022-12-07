@@ -1,0 +1,49 @@
+﻿@page
+@model EmployeeForm.Pages.Employee.IndexModel
+@{
+}
+
+<br>
+<div class="d-flex justify-content-between">
+    <h3>List Of Employees</h3>
+    <a class="btn btn-dark btn-sm d-flex align-items-center justify-content-center" href="/Employee/Create">New Client</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Gender</th>
+            <th>Contact</th>            
+            <th>DOJ</th>
+            <th>Designation</th>
+            <th>Hobbies</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listemployee)
+
+        {
+            <tr>
+                <td>@item.E_ID</td>
+                <td>@item.ename</td>
+                <td>@item.state</td>
+                <td>@item.city</td>
+                <td>@item.gender</td>
+                <td>@item.contact</td>                
+                <td>@item.Emp_DOJ</td>
+                <td>@item.Emp_Designation</td>
+                <td>@item.hobbies</td>
+                <td>
+                    <a class="btn btn-dark btn-sm" id="edit" href="/Employee/Edit?id=@item.E_ID">Edit</a>                   
+                    <a onclick="deletePost(@item.E_ID)" class="btn btn-danger btn-sm del-button">Delete</a>
+                </td>                
+            </tr>
+        }  
+
+    </tbody>
+</table>

@@ -1,0 +1,142 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body { 
+  margin-bottom: 60px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+
+    .sidenav a:hover {
+        text-shadow: grey;
+        font-weight:bold;
+        color: red;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.burger{
+    position:fixed;
+    left: 20px;
+    top: 20px;
+}
+
+
+.global-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pop {
+    display: flex;
+}
+
+.unpop {
+    display: none;
+    animation-name: close;
+    animation-duration: 0.3s;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(0.5,0.5)
+    }
+
+    100% {
+        transform: scale(1,1)
+    }
+}
+
+.window {
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 0.3s;
+}
+
+.head-msg {
+    background-color: #dfdfdf;
+    width: 100%;
+    padding: 1rem;
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.main-msg {
+    background-color: #fff;
+    width: 100%;
+    padding: 2rem 1rem;
+    font-weight: bold;
+}
+
+.confirm {
+    background-color: #dfdfdf;
+    width: 100%;
+    padding: 1rem;
+    text-align: right;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+}
+
+.delete, .cancel {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
