@@ -13,21 +13,21 @@ namespace ContosoCrafts.Website.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 3 "d:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
+#line 3 "D:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
 using ContosoCrafts.WebSite.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "d:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
+#line 4 "D:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
 using ContosoCrafts.WebSite.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "d:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
+#line 5 "D:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
@@ -41,7 +41,7 @@ using Microsoft.AspNetCore.Components.Web;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "d:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
+#line 26 "D:\projects\Dot-Net-Tutorial\ContosoCrafts.Website\ContosoCrafts.Website\Components\ProductList.razor"
        
     Product selectProduct;
     string selectProductId;
