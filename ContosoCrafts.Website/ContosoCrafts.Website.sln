@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoCrafts.Website", "ContosoCrafts.Website\ContosoCrafts.Website.csproj", "{6312D98D-DC76-4344-855E-33A5B175E337}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoCrafts.Website", "ContosoCrafts.Website\ContosoCrafts.Website.csproj", "{6312D98D-DC76-4344-855E-33A5B175E337}"
+>>>>>>> 489aaa5120a68eab0a7e33807c6710c4252bb923
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
