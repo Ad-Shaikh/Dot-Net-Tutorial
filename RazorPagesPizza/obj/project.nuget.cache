@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UEt2gk4bp5cKMshUnrGupquZr3KbaNG32aSyEzhSrp1OL9iTUGXekLP9/pi389Y8nyJkrKc+EHi5nipElTUiIg==",
+  "dgSpecHash": "TnAGdMBdjR1HXppARlAb9b9lQcZOnBBglA4GyXRPPWcPSKsBK18I7ARcIIVuanSWEiDVrvuU4z9TT6fSooLVxw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\RazorPagesPizza\\RazorPagesPizza.csproj",
+  "projectFilePath": "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\RazorPagesPizza.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

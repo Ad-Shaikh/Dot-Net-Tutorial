@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\RazorPagesPizza\\RazorPagesPizza.csproj": {}
+    "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\RazorPagesPizza.csproj": {}
   },
   "projects": {
-    "D:\\projects\\RazorPagesPizza\\RazorPagesPizza.csproj": {
+    "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\RazorPagesPizza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\RazorPagesPizza\\RazorPagesPizza.csproj",
+        "projectUniqueName": "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\RazorPagesPizza.csproj",
         "projectName": "RazorPagesPizza",
-        "projectPath": "D:\\projects\\RazorPagesPizza\\RazorPagesPizza.csproj",
+        "projectPath": "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\RazorPagesPizza.csproj",
         "packagesPath": "C:\\Users\\adnan\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\RazorPagesPizza\\obj\\",
+        "outputPath": "D:\\projects\\Dot-Net-Tutorial\\RazorPagesPizza\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
