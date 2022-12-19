@@ -8,13 +8,13 @@
         <li>
             <input type="checkbox" @bind="todo.IsDone" />
             <input @bind="todo.Todo" />
-            <input value="@todo.DueDate" />
+            <input @bind="todo.DueDate" />
         </li>
     }
 </ul>  
 
 <input @bind="NewTodo" @bind:event="oninput" placeholder="Something todo" />
-<input type="date" @bind="DueDate" @bind:format="yyyy-MM-dd" placeholder="Due Date" />
+<input @bind="DueDate" @bind:format="yyyy-MM-dd" placeholder="Due Date" />
 <button @onclick="Save">Add todo</button>
 
 @code {
