@@ -13,7 +13,7 @@ namespace ImageGallery.Controllers
         public List<Movie> Movie = new List<Movie>();
         public IActionResult Index()
         {
-            string constr = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+            string constr = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
             Documents documents = new Documents();
 
             using (SqlConnection connection = new SqlConnection(constr))
@@ -48,7 +48,7 @@ namespace ImageGallery.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(IFormFile myFile, Movie movie)
         {
-            string constr = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+            string constr = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
             
             movie.MovieName = Request.Form["name"];
 
@@ -99,7 +99,7 @@ namespace ImageGallery.Controllers
             //                Directory.GetCurrentDirectory(),
             //                "wwwroot/images", movie);
             
-            string constr = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+            string constr = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
             Documents details = new Documents();
 
             using (SqlConnection connection = new SqlConnection(constr))
@@ -134,7 +134,7 @@ namespace ImageGallery.Controllers
         {
             try
             {
-                string connectionString = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+                string connectionString = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();

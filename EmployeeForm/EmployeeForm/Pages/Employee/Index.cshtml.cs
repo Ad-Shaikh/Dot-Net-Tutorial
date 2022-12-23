@@ -11,7 +11,7 @@ namespace EmployeeForm.Pages.Employee
         {
             try
             {
-                string connectionString = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+                string connectionString = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
 
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {

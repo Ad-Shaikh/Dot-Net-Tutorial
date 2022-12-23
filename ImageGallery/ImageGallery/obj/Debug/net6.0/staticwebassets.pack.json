@@ -41,6 +41,22 @@
       "PackagePath": "staticwebassets\\images\\638060072671767783race.png"
     },
     {
+      "Id": "D:\\projects\\Dot-Net-Tutorial\\ImageGallery\\ImageGallery\\wwwroot\\images\\638073223904868612ghostbusters.jpg",
+      "PackagePath": "staticwebassets\\images\\638073223904868612ghostbusters.jpg"
+    },
+    {
+      "Id": "D:\\projects\\Dot-Net-Tutorial\\ImageGallery\\ImageGallery\\wwwroot\\images\\638073224103225832ghostbusters 2.jpg",
+      "PackagePath": "staticwebassets\\images\\638073224103225832ghostbusters 2.jpg"
+    },
+    {
+      "Id": "D:\\projects\\Dot-Net-Tutorial\\ImageGallery\\ImageGallery\\wwwroot\\images\\638073224334023217when harry met sally.jpg",
+      "PackagePath": "staticwebassets\\images\\638073224334023217when harry met sally.jpg"
+    },
+    {
+      "Id": "D:\\projects\\Dot-Net-Tutorial\\ImageGallery\\ImageGallery\\wwwroot\\images\\638073224528478724Rio Bravo.jpg",
+      "PackagePath": "staticwebassets\\images\\638073224528478724Rio Bravo.jpg"
+    },
+    {
       "Id": "D:\\projects\\Dot-Net-Tutorial\\ImageGallery\\ImageGallery\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

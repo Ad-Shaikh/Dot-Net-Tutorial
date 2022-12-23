@@ -36,7 +36,7 @@ namespace EmployeeForm.Pages.Employee
 
             try
             {
-                String connectionString = "Data Source=ADNAN;Initial Catalog=TestDB;Integrated Security=True";
+                String connectionString = "Data Source=ADNAN;Initial Catalog=testDB;Integrated Security=True";
                 using (SqlConnection connection = new SqlConnection(connectionString)) 
                 {
                     connection.Open();
