@@ -1,8 +1,11 @@
 BlazorApp/.vs/
 ContosoCrafts/.vs/
-ContosoCrafts/.vs/
+EmployeeForm/.vs/
+ImageGallery/.vs/
 BlazorApp/BlazorApp/obj/Debug/net6.0/project.razor.json
 ContosoCrafts/ContosoCrafts.Website/obj/Debug/netcoreapp3.1/project.razor.json
 BlazorApp/BlazorApp/obj/Debug/net6.0/BlazorApp.assets.cache
 BlazorApp/BlazorApp/obj/Debug/net6.0/BlazorApp.GeneratedMSBuildEditorConfig.editorconfig
 ContosoCrafts/.vs/ContosoCrafts/FileContentIndex/9d3891bd-9334-4b62-b2c6-f33280826c14.vsidx
+EmployeeForm/.vs/EmployeeForm/DesignTimeBuild/.dtbcache.v2
+/.vs
